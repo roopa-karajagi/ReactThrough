@@ -1,0 +1,97 @@
+<!-- Branch Process Checklist-->
+<button type="button" class="btn bottom-btn mt-3 mt-xl-4" style="margin-right:1.0rem;" data-bs-toggle="modal" data-bs-target="#branchChecklistIssuance">
+    BOM Checklist
+</button>
+<div class="modal fade" id="branchChecklistIssuance" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="branchChecklistIssuanceLabel" role="dialog" aria-modal="true" style="padding-left: 0px;">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="float: right;"></button>
+                    </div>
+                    <div class="col-xl-12">
+                        <p class="modalHeading">Issuance (Branch)</p>
+                    </div>
+                    <div class="col-xl-8">
+                        <h2 class="heading1">BOM Checklist (Only for Mega Branches)</h2>
+                    </div>
+                    <div class="col-xl-4">
+                    </div>
+                </div>
+                <!-- process checklist accordions starts here -->
+                <div class="accordion" id="purpose-accordions-bom">
+                    <!-- conditional accordion ends -->
+                    <div class="row mb-3 mb-xl-0">
+                        <div class="heading1 col-12 col-md-12 col-lg-12 col-xl-12">Guidelines & Checks</div>
+                    </div>
+                    <!-- Additional Approval starts -->
+                    <div class="accordion-item ms-xl-3">
+                        <h2 class="accordion-header" id="docCheckHeading">
+                            <button class="accordion-button purpose-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#docCheckItem" aria-expanded="false" aria-controls="docCheckItem">
+                                <div class="row g-0 accordion-row purpose-acc-row">
+                                    <div class="col-11">
+                                        <div class="heading2">Customer Request Letter Checks</div>
+                                    </div>
+                                </div>
+                            </button> 
+                        </h2>
+                        <div id="docCheckItem" class="accordion-collapse collapse purpose-acc-item pt-0" aria-labelledby="docCheckHeading" data-bs-parent="#purpose-accordions-bom">
+                            <ul class="rolewiseAccordion">
+                                <li>Customer request letter as per the format in circular forms part of scanned documents</li>
+                                <li>Indemnity as per the format in circular forms part of scanned documents</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Additional Approval ends -->
+                    <!-- Margin Related starts -->
+                    <div class="accordion-item ms-xl-3">
+                        <h2 class="accordion-header" id="shippingChecksHeading">
+                            <button class="accordion-button purpose-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#shippingChecksItem" aria-expanded="false" aria-controls="shippingChecksItem">
+                                <div class="row g-0 accordion-row purpose-acc-row">
+                                    <div class="col-11">
+                                        <div class="heading2">Charges & Margin Related Checks</div>
+                                    </div>
+                                </div>
+                            </button> 
+                        </h2>
+                        <div id="shippingChecksItem" class="accordion-collapse collapse purpose-acc-item pt-0" aria-labelledby="shippingChecksHeading" data-bs-parent="#purpose-accordions-bom">
+                            <ul class="rolewiseAccordion">
+                                <li>Ensure margin has been collected</li>
+                                <li>Ensure all charges have been retrieved from the customer</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Margin Related ends -->
+                    <!-- Collection Checks starts -->
+                    <div class="accordion-item ms-xl-3">
+                        <h2 class="accordion-header" id="CollectionChecksHeading">
+                            <button class="accordion-button purpose-accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#CollectionChecksItem" aria-expanded="false" aria-controls="CollectionChecksItem">
+                                <div class="row g-0 accordion-row purpose-acc-row">
+                                    <div class="col-11">
+                                        <div class="heading2">Additional Checks</div>
+                                    </div>
+                                </div>
+                            </button> 
+                        </h2>
+                        <div id="CollectionChecksItem" class="accordion-collapse collapse purpose-acc-item pt-0" aria-labelledby="CollectionChecksHeading" data-bs-parent="#purpose-accordions-bom">
+                            <ul class="rolewiseAccordion">
+                                <li>Ensure AMLOCK check done and evidenced</li>
+                                <li>Ensure DO / SG / LOI is restricted to the LC amount</li>
+                                <li>Ensure there is no mismatch in amount and currency</li>
+                                <li>Validate approval from SBH has been obtained as per Annexure 68</li>
+                                <li>Ensure details have been entered in the register and signed by Branch Operations Manager / Branch Manager (Commercial)</li>
+                                <li>Verify that DO / SG / LOI has been signed by two officials MI and above
+                                <br>- One should be either BOM / BM Commercial</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Collection Checks ends -->
+                </div>
+                <!-- rolewise accordion end here -->
+                <!-- process checklist accordions end -->
+            </div>
+        </div>
+    </div>
+</div>
+<!--Branch Process Checklist ends-->
